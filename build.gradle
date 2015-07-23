@@ -1,9 +1,11 @@
 buildscript {
     ext {
-        springBootVersion = '1.2.5.RELEASE'
+        springBootVersion = '1.3.0.BUILD-SNAPSHOT'
     }
     repositories {
         mavenCentral()
+        maven { url "http://repo.spring.io/snapshot" }
+        maven { url "http://repo.spring.io/milestone" }
     }
     dependencies {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}") 
@@ -28,6 +30,9 @@ targetCompatibility = 1.8
 
 repositories {
     mavenCentral()
+    maven { url "http://repo.spring.io/snapshot" }
+    maven { url "http://repo.spring.io/milestone" }
+
 }
 
 configurations {
@@ -41,7 +46,10 @@ dependencies {
     compile ('org.webjars.npm:angular-resource:1.4.3')
     compile ('org.webjars.npm:angular-route:1.4.3')
     compile ('org.webjars.npm:angular-animate:1.4.3')
-   // providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
+    compile('com.itextpdf:itextpdf:5.5.6')
+    //La siguiente es una dependencia de itext
+    compile('org.bouncycastle:bcprov-jdk15on:1.52')
+  // providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
     testCompile("org.springframework.boot:spring-boot-starter-test") 
 }
 
