@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: org.springframework:spring-web:4.2.0.BUILD-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.2.0.BUILD-SNAPSHOT/93cfd2f90c40bca2b1ae7c139b978ff87adf86f/spring-web-4.2.0.BUILD-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.2.0.BUILD-SNAPSHOT/2ff33051dd0c207360109792febec3f87f303bed/spring-web-4.2.0.BUILD-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.2.0.BUILD-SNAPSHOT/96e6e9025ba454dbbcf6ccec8ad0a889330defc6/spring-web-4.2.0.BUILD-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.2.0.BUILD-SNAPSHOT/86fb114890eeb62df1b1757e989d3c54ed408eed/spring-web-4.2.0.BUILD-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

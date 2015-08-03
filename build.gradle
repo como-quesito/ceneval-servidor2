@@ -25,8 +25,8 @@ war {
     baseName = 'unitec'
     version = '0.0.1-SNAPSHOT'
 }
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
 
 repositories {
     mavenCentral()
@@ -46,8 +46,9 @@ dependencies {
     compile ('org.webjars.npm:angular-resource:1.4.3')
     compile ('org.webjars.npm:angular-route:1.4.3')
     compile ('org.webjars.npm:angular-animate:1.4.3')
+    compile ('org.webjars.npm:angular-bootstrap:0.12.0')
     compile('com.itextpdf:itextpdf:5.5.6')
-    //La siguiente es una dependencia de itext
+    //La siguiente es una dependencia de itext si no la pones simplemente no jala y PUNTO
     compile('org.bouncycastle:bcprov-jdk15on:1.52')
   // providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
     testCompile("org.springframework.boot:spring-boot-starter-test") 

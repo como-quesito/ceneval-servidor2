@@ -1,0 +1,34 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- CSS -->
+    <!-- load bootstrap (bootswatch version) -->
+    <link rel="stylesheet" href="webjars/bootstrap/3.3.5/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- JS -->
+    <!-- load angular, ngRoute, ngAnimate -->
+    <script src="webjars/angular/1.4.3/angular.js"></script>
+    <script src="webjars/angular-route/1.4.3/angular-route.js"></script>
+    <script src="webjars/angular-animate/1.4.3/angular-animate.js"></script>
+    <script src="app.js"></script>
+    <style>
+        body,html{
+            background-color: black;
+        }
+    </style>
+
+</head>
+
+<!-- apply our angular app -->
+<body ng-app="animateApp">
+
+
+<!-- inject our views using ng-view -->
+<!-- each angular controller applies a different class here -->
+<div class="page {{ pageClass }}" ng-view></div>
+
+</body>
+</html>
